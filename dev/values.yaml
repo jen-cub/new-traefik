@@ -8,4 +8,3 @@ kvprovider:
   acmeStorageLocation: oct_dev/acme/account
   consul:
     prefix: oct_dev
-
