@@ -1,7 +1,7 @@
 RELEASE := traefik
 NAMESPACE := kube-system
 
-CHART_NAME := stable/traefik
+CHART_NAME := center/stable/traefik
 CHART_VERSION ?= 1.86.1
 
 DEV_CLUSTER ?= testrc
