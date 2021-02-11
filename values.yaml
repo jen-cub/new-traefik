@@ -1,11 +1,43 @@
 ---
 dashboard:
-  domain: traefik.j4.jencub.xyz
-loadBalancerIP: 34.87.200.163
-# startupArguments:
-#   - "--logLevel=DEBUG"
+  enabled: true
+  statistics:
+    recentErrors: 100
+debug:
+  enabled: false
+externalTrafficPolicy: Local
+rbac:
+  enabled: true
+ssl:
+  enabled: true
+  enforced: true
+acme:
+  enabled: true
+  staging: false
+  logging: true
+  challengeType: http-01
+  email: jencub@gmail.com
+  persistence:
+    enabled: false
+resources:
+  limits:
+    cpu: 2
+    memory: 500Mi
+  requests:
+    cpu: 100m
+    memory: 100Mi
+podDisruptionBudget:
+  maxUnavailable: 1
+replicas: 3
+metrics:
+  serviceMonitor:
+    enabled: false
+  prometheus:
+    enabled: false
 kvprovider:
-  acmeStorageLocation: oct_dev/acme/account
+  storeAcme: true
   consul:
-    prefix: oct_dev
-v
+    endpoint: "consul-server.consul.svc.cluster.local:8500"
+    watch: true
+# debug:
+#   enabled: true
