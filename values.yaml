@@ -1,0 +1,11 @@
+---
+dashboard:
+  domain: traefik.j4.jencub.xyz
+loadBalancerIP: 34.87.200.163
+# startupArguments:
+#   - "--logLevel=DEBUG"
+kvprovider:
+  acmeStorageLocation: oct_dev/acme/account
+  consul:
+    prefix: oct_dev
+v
