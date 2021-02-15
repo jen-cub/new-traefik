@@ -37,7 +37,7 @@ metrics:
 kvprovider:
   storeAcme: true
   consul:
-    endpoint: "10.78.4.138:8500"
+    endpoint: "10.12.4.5:8500"
     watch: true
 # debug:
 #   enabled: true
