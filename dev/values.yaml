@@ -1,7 +1,7 @@
 ---
 dashboard:
   domain: traefik.j4.jencub.xyz
-loadBalancerIP: 34.87.200.163
+loadBalancerIP: 35.213.212.108
 # startupArguments:
 #   - "--logLevel=DEBUG"
 kvprovider:
