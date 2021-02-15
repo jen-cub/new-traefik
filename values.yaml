@@ -37,7 +37,7 @@ metrics:
 kvprovider:
   storeAcme: true
   consul:
-    endpoint: "10.12.4.5:8500"
+    endpoint: "consul-consul-server.consul.svc.cluster.local:8500"
     watch: true
 # debug:
 #   enabled: true
