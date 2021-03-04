@@ -4,7 +4,7 @@ dashboard:
   statistics:
     recentErrors: 100
 debug:
-  enabled: false
+  enabled: true
 externalTrafficPolicy: Local
 rbac:
   enabled: true
