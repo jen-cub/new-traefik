@@ -43,7 +43,7 @@ endif
 		--namespace=$(NAMESPACE) \
 		--version $(CHART_VERSION) \
 		-f values.yaml \
-		-f env/$@/values.yaml \
+		-f dev/values.yaml \
 		stable/traefik
 	$(MAKE) clean
 
