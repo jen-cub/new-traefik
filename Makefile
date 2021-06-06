@@ -23,7 +23,7 @@ clean:
 	rm -f credentials.yaml
 
 init-helm:
-	helm init --client-only
+	helm init
 	helm repo update
 
 init-dev: init-helm
