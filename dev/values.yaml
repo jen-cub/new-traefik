@@ -5,6 +5,6 @@ loadBalancerIP: 34.116.91.210
 # startupArguments:
 #   - "--logLevel=DEBUG"
 kvprovider:
-  acmeStorageLocation: feb44_dev/acme/account
+  acmeStorageLocation: jun_dev/acme/account
   consul:
-    prefix: feb44_dev
+    prefix: jun_dev
