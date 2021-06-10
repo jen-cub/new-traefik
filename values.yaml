@@ -39,5 +39,5 @@ kvprovider:
   consul:
     endpoint: "jc-consul-consul-server.consul.svc.cluster.local:8500"
     watch: true
-# debug:
+# debug: 
 #   enabled: true
