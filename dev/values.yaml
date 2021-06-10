@@ -5,6 +5,6 @@ loadBalancerIP: 34.116.91.210
 # startupArguments:
 #   - "--logLevel=DEBUG"
 kvprovider:
-  acmeStorageLocation: june_dev/acme/account
+  acmeStorageLocation: juneto_dev/acme/account
   consul:
-    prefix: june_dev
+    prefix: juneto_dev
