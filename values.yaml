@@ -3,7 +3,7 @@ dashboard:
   enabled: true
   statistics:
     recentErrors: 100
-#debug:
+# debug:
 #  enabled: true
 externalTrafficPolicy: Local
 rbac:
@@ -37,7 +37,7 @@ metrics:
 kvprovider:
   storeAcme: true
   consul:
-    endpoint: "jc-consul-server.consul.svc.cluster.local:8500"
+    endpoint: "jc-consul-consul-server.consul.svc.cluster.local:8500"
     watch: true
 # debug:
 #   enabled: true
